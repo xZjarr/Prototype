@@ -54,6 +54,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="CreateESP.xaml.cs">
+      <DependentUpon>CreateESP.xaml</DependentUpon>
+    </Compile>
     <Compile Include="CreateResource.xaml.cs">
       <DependentUpon>CreateResource.xaml</DependentUpon>
     </Compile>
@@ -75,6 +78,10 @@
     <Compile Include="Show.xaml.cs">
       <DependentUpon>Show.xaml</DependentUpon>
     </Compile>
+    <Page Include="CreateESP.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="CreateResource.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
