@@ -39,7 +39,6 @@
             <ComboBoxItem Content="22"></ComboBoxItem>
             <ComboBoxItem Content="23"></ComboBoxItem>
             <ComboBoxItem Content="24"></ComboBoxItem>
-            <CheckBox Content="CheckBox"/>
         </ComboBox>
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Time" VerticalAlignment="Top" Margin="137,90,0,0"/>
         <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="162,55,0,0">
