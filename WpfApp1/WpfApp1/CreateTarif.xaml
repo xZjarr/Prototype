@@ -9,7 +9,7 @@
     <Grid>
         <TextBlock x:Name="txtblock_Value" HorizontalAlignment="Left" Margin="10,44,0,0" TextWrapping="Wrap" Text="Enter value: " VerticalAlignment="Top"/>
         <TextBox x:Name="txtbox_Value" HorizontalAlignment="Left" Height="23" Margin="91,43,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <ComboBox x:Name="cmbbox_StartTime" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Margin="24,146,0,0" SelectionChanged="ComboBox_SelectionChanged_1">
+        <ComboBox x:Name="cmbbox_StartTime" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Margin="24,146,0,0">
             <ComboBoxItem IsSelected="True" Content="00"></ComboBoxItem>
             <ComboBoxItem Content="01"></ComboBoxItem>
             <ComboBoxItem Content="02"></ComboBoxItem>
@@ -37,7 +37,7 @@
             <ComboBoxItem Content="24"></ComboBoxItem>
             <CheckBox Content="CheckBox"/>
         </ComboBox>
-        <ComboBox x:Name="cmbbox_EndTime" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Margin="120,146,0,0" SelectionChanged="ComboBox_SelectionChanged_1">
+        <ComboBox x:Name="cmbbox_EndTime" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Margin="120,146,0,0">
             <ComboBoxItem IsSelected="True" Content="00"></ComboBoxItem>
             <ComboBoxItem Content="01"></ComboBoxItem>
             <ComboBoxItem Content="02"></ComboBoxItem>
