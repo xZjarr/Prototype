@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Button x:Name="NewJob" Content="Nyt Job" HorizontalAlignment="Left" Height="33" Margin="46,166,0,0" VerticalAlignment="Top" Width="107" Click="NewJob_Click"/>
+
     </Grid>
 </Window>

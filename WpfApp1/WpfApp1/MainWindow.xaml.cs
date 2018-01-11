@@ -24,5 +24,11 @@ namespace WpfApp1
         {
             InitializeComponent();
         }
+
+        private void NewJob_Click(object sender, RoutedEventArgs e)
+        {
+            Job NJ = new Job();
+            NJ.Show();
+        }
     }
 }

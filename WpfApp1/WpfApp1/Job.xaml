@@ -7,6 +7,39 @@
         mc:Ignorable="d"
         Title="Job" Height="300" Width="300">
     <Grid>
-        
+        <ComboBox x:Name="ResourceTypeList" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectionChanged="ComboBox_SelectionChanged">
+            <ComboBoxItem IsSelected="True" Content="Bil"></ComboBoxItem>
+            <ComboBoxItem Content="Printer"></ComboBoxItem>
+        </ComboBox>
+        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="YYYY/MM/DD" VerticalAlignment="Top" Width="120" Margin="0,103,0,0" TextChanged="TextBox_TextChanged"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="DeadLine" VerticalAlignment="Top" Margin="0,82,0,0"/>
+        <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="137,104,0,0" SelectionChanged="ComboBox_SelectionChanged_1">
+            <ComboBoxItem IsSelected="True" Content="0"></ComboBoxItem>
+            <ComboBoxItem Content="1"></ComboBoxItem>
+            <ComboBoxItem Content="2"></ComboBoxItem>
+            <ComboBoxItem Content="3"></ComboBoxItem>
+            <ComboBoxItem Content="4"></ComboBoxItem>
+            <ComboBoxItem Content="5"></ComboBoxItem>
+            <ComboBoxItem Content="6"></ComboBoxItem>
+            <ComboBoxItem Content="7"></ComboBoxItem>
+            <ComboBoxItem Content="8"></ComboBoxItem>
+            <ComboBoxItem Content="9"></ComboBoxItem>
+            <ComboBoxItem Content="10"></ComboBoxItem>
+            <ComboBoxItem Content="11"></ComboBoxItem>
+            <ComboBoxItem Content="12"></ComboBoxItem>
+            <ComboBoxItem Content="13"></ComboBoxItem>
+            <ComboBoxItem Content="14"></ComboBoxItem>
+            <ComboBoxItem Content="15"></ComboBoxItem>
+            <ComboBoxItem Content="16"></ComboBoxItem>
+            <ComboBoxItem Content="17"></ComboBoxItem>
+            <ComboBoxItem Content="18"></ComboBoxItem>
+            <ComboBoxItem Content="19"></ComboBoxItem>
+            <ComboBoxItem Content="20"></ComboBoxItem>
+            <ComboBoxItem Content="21"></ComboBoxItem>
+            <ComboBoxItem Content="22"></ComboBoxItem>
+            <ComboBoxItem Content="23"></ComboBoxItem>
+            <ComboBoxItem Content="24"></ComboBoxItem>
+        </ComboBox>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Time" VerticalAlignment="Top" Margin="137,90,0,0"/>
     </Grid>
 </Window>
