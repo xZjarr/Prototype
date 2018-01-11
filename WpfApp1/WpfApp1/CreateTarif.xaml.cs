@@ -28,5 +28,10 @@ namespace WpfApp1
         {
             this.Close();
         }
+
+        private void btn_Cancel_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }
