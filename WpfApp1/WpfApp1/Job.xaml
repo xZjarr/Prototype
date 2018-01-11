@@ -41,5 +41,11 @@
             <ComboBoxItem Content="24"></ComboBoxItem>
         </ComboBox>
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Time" VerticalAlignment="Top" Margin="137,90,0,0"/>
+        <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="162,0,0,0">
+                  <ComboBoxItem IsSelected="True" Content="Automatisk"></ComboBoxItem>
+                  <ComboBoxItem Content="Bil 1"></ComboBoxItem>
+                  <ComboBoxItem Content="Printer 1"></ComboBoxItem>
+                  <ComboBoxItem Content="Printer 2"></ComboBoxItem>
+        </ComboBox>
     </Grid>
 </Window>
