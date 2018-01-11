@@ -25,6 +25,12 @@ namespace WpfApp1
             InitializeComponent();
         }
 
+        private void NewJob_Click(object sender, RoutedEventArgs e)
+        {
+            Job NJ = new Job();
+            NJ.Show();
+        }
+
         private void btn_ShowScreen_Click(object sender, RoutedEventArgs e)
         {
             Show showScreen = new Show();
