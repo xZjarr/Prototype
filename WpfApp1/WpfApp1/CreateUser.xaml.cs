@@ -10,31 +10,34 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace WpfApp1
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for CreateUser.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class CreateUser : Window
     {
-        public MainWindow()
+        public CreateUser()
         {
             InitializeComponent();
         }
 
-        private void NewJob_Click(object sender, RoutedEventArgs e)
+        private void btn_Save_Click(object sender, RoutedEventArgs e)
         {
-            Job NJ = new Job();
-            NJ.Show();
+            bool status;
+            //Call DBMethod
+            status = SaveUser();
+            if (true)
+            {
+
+            }
         }
 
-        private void btn_ShowScreen_Click(object sender, RoutedEventArgs e)
+        private bool SaveUser()
         {
-            Show showScreen = new Show();
-            showScreen.Show();
+            throw new NotImplementedException();
         }
     }
 }
