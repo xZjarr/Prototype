@@ -13,7 +13,7 @@
             <ComboBoxItem Content="ResourceTypes"></ComboBoxItem>
             <ComboBoxItem Content="Users"></ComboBoxItem>
         </ComboBox>
-        <TextBox x:Name="txtbox_Choose" HorizontalAlignment="Left" Height="23" Margin="39,55,0,0" TextWrapping="Wrap" Text="Chose which job you want to show:" VerticalAlignment="Top" Width="210"/>
         <Button x:Name="btn_Show" Content="Show" HorizontalAlignment="Left" Margin="174,206,0,0" VerticalAlignment="Top" Width="75" Click="btn_Show_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="48,78,0,0" TextWrapping="Wrap" Text="Chose which job you want to show:" VerticalAlignment="Top"/>
     </Grid>
 </Window>

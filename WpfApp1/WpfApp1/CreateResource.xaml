@@ -7,13 +7,13 @@
         mc:Ignorable="d"
         Title="CreateResource" Height="300" Width="300">
     <Grid>
-        <Label x:Name="lbl_Resource" Content="What is the name og the resource?" HorizontalAlignment="Left" Margin="25,45,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="txtbox_Resource" HorizontalAlignment="Left" Height="23" Margin="25,76,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <ComboBox x:Name="cmbbox_ResourceTypes" HorizontalAlignment="Left" Margin="25,154,0,0" VerticalAlignment="Top" Width="120">
             <ComboBoxItem IsSelected="True" Content="GETRESOURCETYPES"></ComboBoxItem>
         </ComboBox>
-        <Label x:Name="lbl_ResourceTypes" Content="What Resource type is it?" HorizontalAlignment="Left" Margin="25,123,0,0" VerticalAlignment="Top"/>
         <Button x:Name="btn_CreateResource" Content="Create Resource" HorizontalAlignment="Left" Margin="148,212,0,0" VerticalAlignment="Top" Width="113" Click="btn_CreateResource_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="25,41,0,0" TextWrapping="Wrap" Text="What is the name og the resource?" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="25,123,0,0" TextWrapping="Wrap" Text="What Resource type is it?" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>

@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="CreateResourceType" Height="300" Width="300">
     <Grid>
-        <Label x:Name="lbl_Text" Content="What is the name of the resource type?" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="txtbox_NameOfResourceType" HorizontalAlignment="Left" Height="23" Margin="10,67,0,0" TextWrapping="Wrap" Text="Insert name here." VerticalAlignment="Top" Width="120"/>
         <Button x:Name="btn_Save" Content="Save" HorizontalAlignment="Left" Margin="184,176,0,0" VerticalAlignment="Top" Width="75" Click="btn_Save_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,33,0,0" TextWrapping="Wrap" Text="Write the name of the resource type:" VerticalAlignment="Top"/>
     </Grid>
 </Window>
