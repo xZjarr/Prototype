@@ -51,7 +51,7 @@ namespace WpfApp1
         private void btn_CreateResource_Click(object sender, RoutedEventArgs e)
         {
             CreateResource createR = new CreateResource();
-            createR.Show();
+            createR.ShowDialog();
         }
 
         private void btn_Return_Click(object sender, RoutedEventArgs e)
@@ -59,6 +59,18 @@ namespace WpfApp1
             MainWindow returnWindow = new MainWindow();
             returnWindow.Show();
             this.Close();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            CreateTarif CT = new CreateTarif;
+            CT.ShowDialog();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            CreateESP CESP = new CreateESP;
+            CESP.ShowDialog();
         }
     }
 }
