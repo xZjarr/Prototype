@@ -28,19 +28,19 @@ namespace WpfApp1
         private void NewJob_Click(object sender, RoutedEventArgs e)
         {
             Job NJ = new Job();
-            NJ.Show();
+            NJ.ShowDialog();
         }
 
         private void btn_ShowScreen_Click(object sender, RoutedEventArgs e)
         {
             Show showScreen = new Show();
-            showScreen.Show();
+            showScreen.ShowDialog();
         }
 
         private void btn_CreateResourceType_Click(object sender, RoutedEventArgs e)
         {
             CreateResourceType createRT = new CreateResourceType();
-            createRT.Show();
+            createRT.ShowDialog();
         }
 
         private void btn_CreateUser_Click(object sender, RoutedEventArgs e)
