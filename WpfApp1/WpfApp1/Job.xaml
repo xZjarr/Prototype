@@ -50,8 +50,8 @@
         </ComboBox>
         <Button Content="Save" HorizontalAlignment="Left" Width="39" Margin="235,15,0,0" Height="20" VerticalAlignment="Top" Click="Button_Click_1"/>
         <Button Content="Close" HorizontalAlignment="Left" Width="52" Margin="162,15,0,219" Click="Button_Click" RenderTransformOrigin="1.278,-4.942"/>
-        <RadioButton Content="RadioButton" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,154,0,0"/>
-        <RadioButton Content="RadioButton" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,187,0,0"/>
-        <RadioButton Content="RadioButton" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,169,0,0"/>
+        <RadioButton Content="Høj Prio" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,154,0,0"/>
+        <RadioButton Content="lav Prio" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,187,0,0"/>
+        <RadioButton Content="Ingen Prio" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,169,0,0"/>
     </Grid>
 </Window>
