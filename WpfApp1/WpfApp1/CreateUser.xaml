@@ -9,10 +9,10 @@
     <Grid>
         <Button Name="btn_Save" Content="Finish" HorizontalAlignment="Left" Margin="203,223,0,0" VerticalAlignment="Top" Width="75" Click="btn_Save_Click"/>
         <TextBox Name="tbx_Name" HorizontalAlignment="Left" Height="23" Margin="137,63,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="141"/>
-        <TextBox Name="tbx_Surame" HorizontalAlignment="Left" Height="23" Margin="137,123,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="141"/>
+        <TextBox Name="tbx_Password" HorizontalAlignment="Left" Height="23" Margin="137,123,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="141"/>
         <Label Content="First name:" HorizontalAlignment="Left" Margin="43,63,0,0" VerticalAlignment="Top"/>
         <Label Content="Password:" HorizontalAlignment="Left" Margin="43,123,0,0" VerticalAlignment="Top"/>
-        <TextBox Name="tbx_Password" HorizontalAlignment="Left" Height="23" Margin="137,92,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="141"/>
+        <TextBox Name="tbx_Surname" HorizontalAlignment="Left" Height="23" Margin="137,92,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="141"/>
         <Label Content="Last name:" HorizontalAlignment="Left" Margin="43,92,0,0" VerticalAlignment="Top"/>
         <CheckBox x:Name="cbx_Admin" HorizontalAlignment="Left" Margin="137,177,0,0" VerticalAlignment="Top"/>
         <Label Content="Admin?" HorizontalAlignment="Left" Margin="43,174,0,0" VerticalAlignment="Top"/>

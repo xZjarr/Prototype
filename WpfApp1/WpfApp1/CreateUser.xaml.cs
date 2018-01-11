@@ -28,7 +28,7 @@ namespace WpfApp1
         {
             bool succes;
             //Call DBMethod
-            succes = SaveUser(tbx_Name.Text, tbx_Surame.Text, tbx_Password.Text, (bool)cbx_Admin.IsChecked);
+            succes = SaveUser(tbx_Name.Text, tbx_Surname.Text, tbx_Password.Text, (bool)cbx_Admin.IsChecked);
             if (succes)
             {
                 MessageBox.Show("The user was succesfully added");
