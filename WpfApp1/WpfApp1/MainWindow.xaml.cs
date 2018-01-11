@@ -30,5 +30,11 @@ namespace WpfApp1
             Show showScreen = new Show();
             showScreen.Show();
         }
+
+        private void btn_CreateResourceType_Click(object sender, RoutedEventArgs e)
+        {
+            CreateResourceType createRT = new CreateResourceType();
+            createRT.Show();
+        }
     }
 }

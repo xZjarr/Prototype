@@ -15,26 +15,18 @@ using System.Windows.Shapes;
 namespace WpfApp1
 {
     /// <summary>
-    /// Interaction logic for Show.xaml
+    /// Interaction logic for CreateResourceType.xaml
     /// </summary>
-    public partial class Show : Window
+    public partial class CreateResourceType : Window
     {
-        public Show()
+        public CreateResourceType()
         {
             InitializeComponent();
         }
-        static void ShowList()
-        {
-            //Show the chosen object from dropdown menu, when clicking button.
-        }
-        public static void ShowDetails()
-        {
-            //Show details of the chosen job/whatever when clicking on job.
-        }
 
-        private void btn_Show_Click(object sender, RoutedEventArgs e)
+        private void btn_Save_Click(object sender, RoutedEventArgs e)
         {
-            //Show information of the chosen object.
+            //Saves the resourcetype name in DB.
             this.Close();
         }
     }
