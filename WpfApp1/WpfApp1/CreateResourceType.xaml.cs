@@ -35,6 +35,7 @@ namespace WpfApp1
         private void btn_Save_Click(object sender, RoutedEventArgs e)
         {
             //Saves the resourcetype name in DB.
+            MessageBox.Show("The resourcetype was succesfully added");
             this.Close();
         }
     }
