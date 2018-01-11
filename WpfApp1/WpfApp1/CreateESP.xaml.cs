@@ -23,5 +23,25 @@ namespace WpfApp1
         {
             InitializeComponent();
         }
+
+        private void date_Start_SelectedDateChanged(object sender, SelectionChangedEventArgs e)
+        {
+            date_End.IsEnabled = true;
+        }
+
+        private void date_End_SelectedDateChanged(object sender, SelectionChangedEventArgs e)
+        {
+            drop_StartTime.IsEnabled = true;
+        }
+
+        private void drop_StartTime_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            drop_EndTime.IsEnabled = true;
+        }
+
+        private void btn_Save_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }

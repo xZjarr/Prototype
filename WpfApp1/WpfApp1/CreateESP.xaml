@@ -8,8 +8,8 @@
         Title="CreateESP" Height="300" Width="300">
     <Grid>
         <Label Content="Enter estimated surplus of power" HorizontalAlignment="Left" Margin="10,26,0,0" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="10,57,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <ComboBox HorizontalAlignment="Left" Margin="153,126,0,0" VerticalAlignment="Top" Width="120">
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="10,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="drop_StartTime" HorizontalAlignment="Left" Margin="153,126,0,0" VerticalAlignment="Top" Width="120" IsEnabled="False">
             <ComboBoxItem IsSelected="True" Content="00"></ComboBoxItem>
             <ComboBoxItem Content="01"/>
             <ComboBoxItem Content="02"/>
@@ -36,17 +36,17 @@
             <ComboBoxItem Content="23"></ComboBoxItem>
             <ComboBoxItem Content="24"></ComboBoxItem>
         </ComboBox>
-        <ComboBox HorizontalAlignment="Left" Margin="153,153,0,0" VerticalAlignment="Top" Width="120">
-            <ComboBoxItem IsSelected="True" Content="0"/>
-            <ComboBoxItem Content="1"/>
-            <ComboBoxItem Content="2"/>
-            <ComboBoxItem Content="3"/>
-            <ComboBoxItem Content="4"/>
-            <ComboBoxItem Content="5"/>
-            <ComboBoxItem Content="6"/>
-            <ComboBoxItem Content="7"/>
-            <ComboBoxItem Content="8"/>
-            <ComboBoxItem Content="9"/>
+        <ComboBox x:Name="drop_EndTime" HorizontalAlignment="Left" Margin="153,153,0,0" VerticalAlignment="Top" Width="120" IsEnabled="False">
+            <ComboBoxItem IsSelected="True" Content="00"/>
+            <ComboBoxItem Content="01"/>
+            <ComboBoxItem Content="02"/>
+            <ComboBoxItem Content="03"/>
+            <ComboBoxItem Content="04"/>
+            <ComboBoxItem Content="05"/>
+            <ComboBoxItem Content="06"/>
+            <ComboBoxItem Content="07"/>
+            <ComboBoxItem Content="08"/>
+            <ComboBoxItem Content="09"/>
             <ComboBoxItem Content="10"/>
             <ComboBoxItem Content="11"/>
             <ComboBoxItem Content="12"/>
@@ -63,6 +63,9 @@
             <ComboBoxItem Content="23"/>
             <ComboBoxItem Content="24"/>
         </ComboBox>
+        <DatePicker x:Name="date_Start" HorizontalAlignment="Left" Margin="10,125,0,0" VerticalAlignment="Top" SelectedDateChanged="date_Start_SelectedDateChanged"/>
+        <DatePicker x:Name="date_End" HorizontalAlignment="Left" Margin="10,152,0,0" VerticalAlignment="Top" IsEnabled="False" SelectedDateChanged="date_End_SelectedDateChanged"/>
+        <Button x:Name="btn_Save" Content="Save" HorizontalAlignment="Left" Width="39" Margin="243,239,0,0" Height="20" VerticalAlignment="Top" Click="btn_Save_Click"/>
 
     </Grid>
 </Window>
