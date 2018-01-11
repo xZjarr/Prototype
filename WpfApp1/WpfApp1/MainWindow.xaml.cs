@@ -42,5 +42,11 @@ namespace WpfApp1
             CreateResourceType createRT = new CreateResourceType();
             createRT.Show();
         }
+
+        private void btn_CreateUser_Click(object sender, RoutedEventArgs e)
+        {
+            CreateUser newUser = new CreateUser();
+            newUser.Show();
+        }
     }
 }
