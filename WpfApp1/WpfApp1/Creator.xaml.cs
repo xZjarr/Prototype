@@ -35,19 +35,19 @@ namespace WpfApp1
             Show showScreen = new Show();
             showScreen.ShowDialog();
         }
-
+        // skal kun kunne ses af admin
         private void btn_CreateResourceType_Click(object sender, RoutedEventArgs e)
         {
             CreateResourceType createRT = new CreateResourceType();
             createRT.ShowDialog();
         }
-
+        // skal kun kunne ses af admin
         private void btn_CreateUser_Click(object sender, RoutedEventArgs e)
         {
             CreateUser newUser = new CreateUser();
             newUser.Show();
         }
-
+        // skal kun kunne ses af admin
         private void btn_CreateResource_Click(object sender, RoutedEventArgs e)
         {
             CreateResource createR = new CreateResource();
@@ -60,13 +60,13 @@ namespace WpfApp1
             returnWindow.Show();
             this.Close();
         }
-
+        // skal kun kunne ses af admin
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             CreateTarif CT = new CreateTarif();
             CT.ShowDialog();
         }
-
+        // skal kun kunne ses af admin
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             CreateESP CESP = new CreateESP();

@@ -13,17 +13,17 @@
         </ComboBox>
         <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="YYYY/MM/DD" VerticalAlignment="Top" Width="120" Margin="0,103,0,0" TextChanged="TextBox_TextChanged"/>
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="DeadLine" VerticalAlignment="Top" Margin="0,82,0,0"/>
-        <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="137,104,0,0" SelectionChanged="ComboBox_SelectionChanged_1">
-            <ComboBoxItem IsSelected="True" Content="0"></ComboBoxItem>
-            <ComboBoxItem Content="1"></ComboBoxItem>
-            <ComboBoxItem Content="2"></ComboBoxItem>
-            <ComboBoxItem Content="3"></ComboBoxItem>
-            <ComboBoxItem Content="4"></ComboBoxItem>
-            <ComboBoxItem Content="5"></ComboBoxItem>
-            <ComboBoxItem Content="6"></ComboBoxItem>
-            <ComboBoxItem Content="7"></ComboBoxItem>
-            <ComboBoxItem Content="8"></ComboBoxItem>
-            <ComboBoxItem Content="9"></ComboBoxItem>
+        <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="137,110,0,0" SelectionChanged="ComboBox_SelectionChanged_1">
+            <ComboBoxItem IsSelected="True" Content="00"></ComboBoxItem>
+            <ComboBoxItem Content="01"></ComboBoxItem>
+            <ComboBoxItem Content="02"></ComboBoxItem>
+            <ComboBoxItem Content="03"></ComboBoxItem>
+            <ComboBoxItem Content="04"></ComboBoxItem>
+            <ComboBoxItem Content="05"></ComboBoxItem>
+            <ComboBoxItem Content="06"></ComboBoxItem>
+            <ComboBoxItem Content="07"></ComboBoxItem>
+            <ComboBoxItem Content="08"></ComboBoxItem>
+            <ComboBoxItem Content="09"></ComboBoxItem>
             <ComboBoxItem Content="10"></ComboBoxItem>
             <ComboBoxItem Content="11"></ComboBoxItem>
             <ComboBoxItem Content="12"></ComboBoxItem>
@@ -39,6 +39,7 @@
             <ComboBoxItem Content="22"></ComboBoxItem>
             <ComboBoxItem Content="23"></ComboBoxItem>
             <ComboBoxItem Content="24"></ComboBoxItem>
+            <CheckBox Content="CheckBox"/>
         </ComboBox>
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Time" VerticalAlignment="Top" Margin="137,90,0,0"/>
         <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="162,55,0,0">
