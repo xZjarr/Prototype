@@ -11,7 +11,6 @@
             <ComboBoxItem IsSelected="True" Content="Bil"></ComboBoxItem>
             <ComboBoxItem Content="Printer"></ComboBoxItem>
         </ComboBox>
-        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="YYYY/MM/DD" VerticalAlignment="Top" Width="120" Margin="0,103,0,0" TextChanged="TextBox_TextChanged"/>
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="DeadLine" VerticalAlignment="Top" Margin="0,82,0,0"/>
         <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="137,110,0,0" SelectionChanged="ComboBox_SelectionChanged_1">
             <ComboBoxItem IsSelected="True" Content="00"></ComboBoxItem>
@@ -52,5 +51,6 @@
         <RadioButton Content="Høj Prio" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,154,0,0"/>
         <RadioButton Content="lav Prio" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,187,0,0"/>
         <RadioButton Content="Ingen Prio" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,169,0,0"/>
+        <DatePicker HorizontalAlignment="Left" Margin="0,103,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>
