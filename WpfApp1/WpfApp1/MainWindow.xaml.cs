@@ -24,5 +24,11 @@ namespace WpfApp1
         {
             InitializeComponent();
         }
+
+        private void btn_ShowScreen_Click(object sender, RoutedEventArgs e)
+        {
+            Show showScreen = new Show();
+            showScreen.Show();
+        }
     }
 }
