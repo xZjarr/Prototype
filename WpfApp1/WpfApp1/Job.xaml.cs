@@ -15,21 +15,13 @@ using System.Windows.Shapes;
 namespace WpfApp1
 {
     /// <summary>
-    /// Interaction logic for Show.xaml
+    /// Interaction logic for Job.xaml
     /// </summary>
-    public partial class Show : Window
+    public partial class Job : Window
     {
-        public Show()
+        public Job()
         {
             InitializeComponent();
-        }
-        static void ShowList()
-        {
-            //Show the chosen object from dropdown menu, when clicking button.
-        }
-        public static void ShowDetails()
-        {
-            //Show details of the chosen job/whatever when clicking on job.
         }
     }
 }

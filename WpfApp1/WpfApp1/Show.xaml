@@ -7,6 +7,13 @@
         mc:Ignorable="d"
         Title="Show" Height="300" Width="300">
     <Grid>
-        
+        <ComboBox x:Name="cmbBox_ShowJob" HorizontalAlignment="Left" Margin="83,116,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBoxItem IsSelected="True" Content="Jobs"></ComboBoxItem>
+            <ComboBoxItem Content="Resources"></ComboBoxItem>
+            <ComboBoxItem Content="ResourceTypes"></ComboBoxItem>
+            <ComboBoxItem Content="Users"></ComboBoxItem>
+        </ComboBox>
+        <TextBox x:Name="txtbox_Choose" HorizontalAlignment="Left" Height="23" Margin="39,55,0,0" TextWrapping="Wrap" Text="Chose which job you want to show:" VerticalAlignment="Top" Width="210"/>
+        <Button x:Name="btn_Show" Content="Show" HorizontalAlignment="Left" Margin="174,206,0,0" VerticalAlignment="Top" Width="75"/>
     </Grid>
 </Window>
