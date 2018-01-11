@@ -7,14 +7,22 @@
         mc:Ignorable="d"
         Title="CreateUser" Height="300" Width="300">
     <Grid>
-        <Button Name="btn_Save" Content="Finish" HorizontalAlignment="Left" Margin="203,223,0,0" VerticalAlignment="Top" Width="75" Click="btn_Save_Click"/>
-        <TextBox Name="tbx_Name" HorizontalAlignment="Left" Height="23" Margin="137,63,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="141"/>
-        <TextBox Name="tbx_Password" HorizontalAlignment="Left" Height="23" Margin="137,123,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="141"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="164*"/>
+            <RowDefinition Height="107*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="124*"/>
+            <ColumnDefinition Width="169*"/>
+        </Grid.ColumnDefinitions>
+        <Button Name="btn_Save" Content="Finish" HorizontalAlignment="Left" Margin="79,59.454,0,0" VerticalAlignment="Top" Width="75" Click="btn_Save_Click" Grid.Column="1" Grid.Row="1"/>
+        <TextBox Name="tbx_Name" HorizontalAlignment="Left" Height="23" Margin="13,63,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="141" Grid.Column="1"/>
+        <TextBox Name="tbx_Password" HorizontalAlignment="Left" Height="23" Margin="13,123,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="141" Grid.Column="1"/>
         <Label Content="First name:" HorizontalAlignment="Left" Margin="43,63,0,0" VerticalAlignment="Top"/>
         <Label Content="Password:" HorizontalAlignment="Left" Margin="43,123,0,0" VerticalAlignment="Top"/>
-        <TextBox Name="tbx_Surname" HorizontalAlignment="Left" Height="23" Margin="137,92,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="141"/>
+        <TextBox Name="tbx_Surname" HorizontalAlignment="Left" Height="23" Margin="13,92,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="141" Grid.Column="1"/>
         <Label Content="Last name:" HorizontalAlignment="Left" Margin="43,92,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="cbx_Admin" HorizontalAlignment="Left" Margin="137,177,0,0" VerticalAlignment="Top"/>
-        <Label Content="Admin?" HorizontalAlignment="Left" Margin="43,174,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="cbx_Admin" HorizontalAlignment="Left" Margin="13,13.454,0,0" VerticalAlignment="Top" Grid.Column="1" Grid.Row="1"/>
+        <Label Content="Admin?" HorizontalAlignment="Left" Margin="43,10.454,0,0" VerticalAlignment="Top" Grid.Row="1"/>
     </Grid>
 </Window>

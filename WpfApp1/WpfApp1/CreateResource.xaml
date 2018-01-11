@@ -7,13 +7,22 @@
         mc:Ignorable="d"
         Title="CreateResource" Height="300" Width="300">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="108*"/>
+            <RowDefinition Height="95*"/>
+            <RowDefinition Height="68*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
         <TextBox x:Name="txtbox_Resource" HorizontalAlignment="Left" Height="23" Margin="25,76,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <ComboBox x:Name="cmbbox_ResourceTypes" HorizontalAlignment="Left" Margin="25,154,0,0" VerticalAlignment="Top" Width="120">
+        <ComboBox x:Name="cmbbox_ResourceTypes" HorizontalAlignment="Left" Margin="25,46,0,0" VerticalAlignment="Top" Width="120" Grid.Row="1">
             <ComboBoxItem IsSelected="True" Content="GETRESOURCETYPES"></ComboBoxItem>
         </ComboBox>
-        <Button x:Name="btn_CreateResource" Content="Create Resource" HorizontalAlignment="Left" Margin="148,212,0,0" VerticalAlignment="Top" Width="113" Click="btn_CreateResource_Click"/>
-        <TextBlock HorizontalAlignment="Left" Margin="25,41,0,0" TextWrapping="Wrap" Text="What is the name og the resource?" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Margin="25,123,0,0" TextWrapping="Wrap" Text="What Resource type is it?" VerticalAlignment="Top"/>
+        <Button x:Name="btn_CreateResource" Content="Create Resource" HorizontalAlignment="Left" Margin="0.8,9.324,0,0" VerticalAlignment="Top" Width="113" Click="btn_CreateResource_Click" Grid.Column="1" Grid.Row="2"/>
+        <TextBlock HorizontalAlignment="Left" Margin="25,41,0,0" TextWrapping="Wrap" Text="What is the name og the resource?" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+        <TextBlock HorizontalAlignment="Left" Margin="25,15,0,0" TextWrapping="Wrap" Text="What Resource type is it?" VerticalAlignment="Top" Grid.ColumnSpan="2" Grid.Row="1"/>
 
     </Grid>
 </Window>
