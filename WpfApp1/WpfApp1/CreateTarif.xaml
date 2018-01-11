@@ -67,7 +67,6 @@
         </ComboBox>
         <TextBlock HorizontalAlignment="Left" Margin="24,114,0,0" TextWrapping="Wrap" Text="Choose timespan:" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="91,149,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top"/>
-        <Button x:Name="btn_Save" Content="Save" HorizontalAlignment="Left" Margin="184,215,0,0" VerticalAlignment="Top" Width="75"/>
 
 
     </Grid>
