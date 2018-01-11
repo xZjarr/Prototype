@@ -39,7 +39,9 @@ namespace WpfApp1
         private void btn_CreateResource_Click(object sender, RoutedEventArgs e)
         {
             //Saves the resource in db.
+            MessageBox.Show("The resource was succesfully added");
             this.Close();
+
         }
     }
 }
