@@ -63,13 +63,13 @@ namespace WpfApp1
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            CreateTarif CT = new CreateTarif;
+            CreateTarif CT = new CreateTarif();
             CT.ShowDialog();
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            CreateESP CESP = new CreateESP;
+            CreateESP CESP = new CreateESP();
             CESP.ShowDialog();
         }
     }
