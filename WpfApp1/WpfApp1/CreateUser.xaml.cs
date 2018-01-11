@@ -26,18 +26,36 @@ namespace WpfApp1
 
         private void btn_Save_Click(object sender, RoutedEventArgs e)
         {
-            bool status;
+            bool succes;
             //Call DBMethod
-            status = SaveUser();
-            if (true)
+            succes = SaveUser(tbx_Name.Text, tbx_Surame.Text, tbx_Password.Text, (bool)cbx_Admin.IsChecked);
+            if (succes)
             {
-
+                MessageBox.Show("The user was succesfully added");
             }
+            else
+            {
+                MessageBox.Show("The user already exists");
+            }
+
+            this.Close();
         }
 
-        private bool SaveUser()
+        private bool SaveUser(string name, string surname, string password, bool admin)
         {
-            throw new NotImplementedException();
+            //Generate username
+            //GenerateName();
+
+            //Check if name is taken, then return false
+            if (name == "Hans" && surname == "fra HR")
+            {
+                return false;
+            }
+            //else save in DB and return true
+            else
+            {
+                return true;
+            }
         }
     }
 }
