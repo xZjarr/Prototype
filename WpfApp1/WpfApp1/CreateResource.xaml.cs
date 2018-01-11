@@ -15,26 +15,30 @@ using System.Windows.Shapes;
 namespace WpfApp1
 {
     /// <summary>
-    /// Interaction logic for CreateResourceType.xaml
+    /// Interaction logic for CreateResource.xaml
     /// </summary>
-    public partial class CreateResourceType : Window
+    public partial class CreateResource : Window
     {
-        public CreateResourceType()
+        public CreateResource()
         {
             InitializeComponent();
         }
-        static void GetResources()
+        static void CreateResources()
         {
 
         }
-        static void CreateThisResourceType()
+        static void EditResources()
+        {
+
+        }
+        static void DeleteResources()
         {
 
         }
 
-        private void btn_Save_Click(object sender, RoutedEventArgs e)
+        private void btn_CreateResource_Click(object sender, RoutedEventArgs e)
         {
-            //Saves the resourcetype name in DB.
+            //Saves the resource in db.
             this.Close();
         }
     }

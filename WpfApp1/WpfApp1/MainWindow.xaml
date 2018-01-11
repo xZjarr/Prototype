@@ -11,6 +11,7 @@
         <Button x:Name="btn_CreateResourceType" Content="Create Resourcetype" HorizontalAlignment="Left" Margin="39,112,0,0" VerticalAlignment="Top" Width="138" Height="62" Click="btn_CreateResourceType_Click"/>
         <Button x:Name="NewJob" Content="Nyt Job" HorizontalAlignment="Left" Height="33" Margin="39,196,0,0" VerticalAlignment="Top" Width="107" Click="NewJob_Click"/>
         <Button x:Name="btn_CreateUser" Content="Create User" HorizontalAlignment="Left" Margin="39,254,0,0" VerticalAlignment="Top" Width="107" Height="34" Click="btn_CreateUser_Click"/>
+        <Button x:Name="btn_CreateResource" Content="Create Resource" HorizontalAlignment="Left" Margin="294,42,0,0" VerticalAlignment="Top" Width="118" Height="36" Click="btn_CreateResource_Click"/>
 
     </Grid>
 </Window>
