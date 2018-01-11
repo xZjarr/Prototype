@@ -60,6 +60,9 @@
     <Compile Include="CreateResourceType.xaml.cs">
       <DependentUpon>CreateResourceType.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Creator.xaml.cs">
+      <DependentUpon>Creator.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Job.xaml.cs">
       <DependentUpon>Job.xaml</DependentUpon>
     </Compile>
@@ -74,6 +77,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="CreateResourceType.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Creator.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

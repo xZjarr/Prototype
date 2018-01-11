@@ -25,34 +25,18 @@ namespace WpfApp1
             InitializeComponent();
         }
 
-        private void NewJob_Click(object sender, RoutedEventArgs e)
-        {
-            Job NJ = new Job();
-            NJ.ShowDialog();
-        }
-
         private void btn_ShowScreen_Click(object sender, RoutedEventArgs e)
         {
             Show showScreen = new Show();
-            showScreen.ShowDialog();
+            showScreen.Show();
+            this.Close();
         }
 
-        private void btn_CreateResourceType_Click(object sender, RoutedEventArgs e)
+        private void btn_CreateScreen_Click(object sender, RoutedEventArgs e)
         {
-            CreateResourceType createRT = new CreateResourceType();
-            createRT.ShowDialog();
-        }
-
-        private void btn_CreateUser_Click(object sender, RoutedEventArgs e)
-        {
-            CreateUser newUser = new CreateUser();
-            newUser.Show();
-        }
-
-        private void btn_CreateResource_Click(object sender, RoutedEventArgs e)
-        {
-            CreateResource createR = new CreateResource();
-            createR.Show();
+            Creator createwindow = new Creator();
+            createwindow.Show();
+            this.Close();
         }
     }
 }

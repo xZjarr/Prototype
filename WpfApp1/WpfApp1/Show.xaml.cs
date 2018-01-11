@@ -35,6 +35,16 @@ namespace WpfApp1
         private void btn_Show_Click(object sender, RoutedEventArgs e)
         {
             //Show information of the chosen object.
+            //(Klaus) Skal ændres til: Åbne nyt vindue med baseret på hvad der skal vises??
+            MainWindow returnWindow = new MainWindow();
+            returnWindow.Show();
+            this.Close();
+        }
+
+        private void btn_Return_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow returnWindow = new MainWindow();
+            returnWindow.Show();
             this.Close();
         }
     }
