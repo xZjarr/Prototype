@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Job" Height="300" Width="300">
     <Grid>
-        <ComboBox x:Name="ResourceTypeList" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectionChanged="ComboBox_SelectionChanged">
+        <ComboBox x:Name="ResourceTypeList" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" SelectionChanged="ComboBox_SelectionChanged" Margin="0,55,0,0">
             <ComboBoxItem IsSelected="True" Content="Bil"></ComboBoxItem>
             <ComboBoxItem Content="Printer"></ComboBoxItem>
         </ComboBox>
@@ -41,16 +41,16 @@
             <ComboBoxItem Content="24"></ComboBoxItem>
         </ComboBox>
         <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Time" VerticalAlignment="Top" Margin="137,90,0,0"/>
-        <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="162,0,0,0">
+        <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="162,55,0,0">
             <ComboBoxItem IsSelected="True" Content="Automatisk"></ComboBoxItem>
             <ComboBoxItem Content="Bil 1"></ComboBoxItem>
             <ComboBoxItem Content="Printer 1"></ComboBoxItem>
             <ComboBoxItem Content="Printer 2"></ComboBoxItem>
         </ComboBox>
-        <CheckBox Content="Høj prioritet" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,154,0,0"/>
-        <CheckBox Content="Lav prioritet" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,174,0,0"/>
-        <CheckBox Content="Ingen prioritet" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,194,0,0"/>
-        <Button Content="Save" HorizontalAlignment="Left" Width="39" Margin="243,239,0,0" Height="20" VerticalAlignment="Top" Click="Button_Click_1"/>
-        <Button Content="Close" HorizontalAlignment="Left" Width="52" Margin="137,239,0,10" Click="Button_Click"/>
+        <Button Content="Save" HorizontalAlignment="Left" Width="39" Margin="235,15,0,0" Height="20" VerticalAlignment="Top" Click="Button_Click_1"/>
+        <Button Content="Close" HorizontalAlignment="Left" Width="52" Margin="162,15,0,219" Click="Button_Click" RenderTransformOrigin="1.278,-4.942"/>
+        <RadioButton Content="RadioButton" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,154,0,0"/>
+        <RadioButton Content="RadioButton" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,187,0,0"/>
+        <RadioButton Content="RadioButton" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,169,0,0"/>
     </Grid>
 </Window>
